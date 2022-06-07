@@ -1,0 +1,418 @@
+[2021-07-15 23:57:37,165: INFO/MainProcess] beat: Starting...
+[2021-07-15 23:57:37,373: INFO/MainProcess] Scheduler: Sending due task download_csv_to_cache (api.tasks.download_csv_file_to_cache)
+[2021-07-15 23:57:37,832: INFO/MainProcess] Connected to redis://redis:6379//
+[2021-07-15 23:57:37,865: INFO/MainProcess] mingle: searching for neighbors
+[2021-07-15 23:57:38,929: INFO/MainProcess] mingle: all alone
+[2021-07-15 23:57:38,997: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2021-07-15 23:57:39,001: INFO/MainProcess] celery@64afde5d4d8d ready.
+[2021-07-15 23:57:39,018: INFO/MainProcess] Task api.tasks.download_csv_file_to_cache[918cc701-c8cd-48d8-994e-fabdeac5d280] received
+[2021-07-15 23:57:39,065: INFO/ForkPoolWorker-1] Task api.tasks.download_csv_file_to_cache[918cc701-c8cd-48d8-994e-fabdeac5d280] succeeded in 0.03848199999993085s: 'An error occurred when downloading CSV content: No connection adapters were found for \'"https://docs.google.com/spreadsheet/ccc?key=0Aqg9JQbnOwBwdEZFN2JKeldGZGFzUWVrNDBsczZxLUE&single=true&gid=0&output=csv"\''
+[2021-07-15 23:57:44,301: INFO/MainProcess] Events of group {task} enabled by remote.
+[2021-07-15 23:57:51,429: INFO/MainProcess] Task api.tasks.download_csv_file_to_cache[432c5845-66fd-4056-80e9-fbc185cbd697] received
+[2021-07-15 23:57:51,442: INFO/ForkPoolWorker-1] Task api.tasks.download_csv_file_to_cache[432c5845-66fd-4056-80e9-fbc185cbd697] succeeded in 0.0042428000015206635s: 'An error occurred when downloading CSV content: No connection adapters were found for \'"https://docs.google.com/spreadsheet/ccc?key=0Aqg9JQbnOwBwdEZFN2JKeldGZGFzUWVrNDBsczZxLUE&single=true&gid=0&output=csv"\''
+[2021-07-15 23:58:00,000: INFO/MainProcess] Scheduler: Sending due task download_csv_to_cache (api.tasks.download_csv_file_to_cache)
+[2021-07-15 23:58:00,013: INFO/MainProcess] Task api.tasks.download_csv_file_to_cache[62cca652-1f93-4abc-b014-fe7e01e8a76c] received
+[2021-07-15 23:58:00,026: INFO/ForkPoolWorker-1] Task api.tasks.download_csv_file_to_cache[62cca652-1f93-4abc-b014-fe7e01e8a76c] succeeded in 0.004068400001415284s: 'An error occurred when downloading CSV content: No connection adapters were found for \'"https://docs.google.com/spreadsheet/ccc?key=0Aqg9JQbnOwBwdEZFN2JKeldGZGFzUWVrNDBsczZxLUE&single=true&gid=0&output=csv"\''
+[2021-07-15 23:59:00,000: INFO/MainProcess] Scheduler: Sending due task download_csv_to_cache (api.tasks.download_csv_file_to_cache)
+[2021-07-15 23:59:00,012: INFO/MainProcess] Task api.tasks.download_csv_file_to_cache[cb72fc9c-4a50-400d-8ec8-bd242835551a] received
+[2021-07-15 23:59:00,029: INFO/ForkPoolWorker-1] Task api.tasks.download_csv_file_to_cache[cb72fc9c-4a50-400d-8ec8-bd242835551a] succeeded in 0.010046999999758555s: 'An error occurred when downloading CSV content: No connection adapters were found for \'"https://docs.google.com/spreadsheet/ccc?key=0Aqg9JQbnOwBwdEZFN2JKeldGZGFzUWVrNDBsczZxLUE&single=true&gid=0&output=csv"\''
+[2021-07-16 00:00:00,002: INFO/MainProcess] Scheduler: Sending due task download_csv_to_cache (api.tasks.download_csv_file_to_cache)
+[2021-07-16 00:00:00,015: INFO/MainProcess] Task api.tasks.download_csv_file_to_cache[cdaafb40-751b-4483-8d41-80a92fa13de8] received
+[2021-07-16 00:00:00,025: INFO/ForkPoolWorker-1] Task api.tasks.download_csv_file_to_cache[cdaafb40-751b-4483-8d41-80a92fa13de8] succeeded in 0.00418790000185254s: 'An error occurred when downloading CSV content: No connection adapters were found for \'"https://docs.google.com/spreadsheet/ccc?key=0Aqg9JQbnOwBwdEZFN2JKeldGZGFzUWVrNDBsczZxLUE&single=true&gid=0&output=csv"\''
+[2021-07-16 00:00:58,133: INFO/MainProcess] beat: Starting...
+[2021-07-16 00:01:00,027: INFO/MainProcess] Connected to redis://redis:6379//
+[2021-07-16 00:01:00,047: INFO/MainProcess] Scheduler: Sending due task download_csv_to_cache (api.tasks.download_csv_file_to_cache)
+[2021-07-16 00:01:00,065: INFO/MainProcess] mingle: searching for neighbors
+[2021-07-16 00:01:01,174: INFO/MainProcess] mingle: all alone
+[2021-07-16 00:01:01,236: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2021-07-16 00:01:01,240: INFO/MainProcess] celery@db3177b1750a ready.
+[2021-07-16 00:01:01,259: INFO/MainProcess] Task api.tasks.download_csv_file_to_cache[57d93756-f9c5-4d73-919b-8aa144d25baa] received
+[2021-07-16 00:01:03,222: INFO/ForkPoolWorker-1] Item 0: {'title': 'Item 1', 'description': 'Description 1', 'image': 'http://farm4.staticflickr.com/3764/10438039923_2ef6f68348_c.jpg'}
+[2021-07-16 00:01:03,238: INFO/ForkPoolWorker-1] Item 1: {'title': 'Item 2', 'description': 'Description 2', 'image': 'http://www.officialpsds.com/images/stocks/ALLEY-stock1502.jpg'}
+[2021-07-16 00:01:03,254: INFO/ForkPoolWorker-1] Item 2: {'title': 'Item 3', 'description': 'Description 3', 'image': 'https://www.google.com'}
+[2021-07-16 00:01:03,267: INFO/ForkPoolWorker-1] Item 3: {'title': 'Item 4', 'description': 'Description 4, <i>extra info</i>', 'image': ''}
+[2021-07-16 00:01:03,286: INFO/ForkPoolWorker-1] Item 4: {'title': 'Item 5', 'description': 'Description 5', 'image': 'http://ladymanson.com/Goodies/PS%20Tutorials/stock2.jpg'}
+[2021-07-16 00:01:03,294: INFO/ForkPoolWorker-1] Item 5: {'title': 'Item 6, extra info', 'description': '<b>Description 6</b>', 'image': 'http://fc01.deviantart.net/fs17/f/2007/129/7/4/Stock_032__by_enchanted_stock.jpg'}
+[2021-07-16 00:01:03,308: INFO/ForkPoolWorker-1] Item 6: {'title': 'Item 7', 'description': 'Description 7', 'image': 'http://www.rubberdragon.com/website-design/44/content/just-in-time-stock.png?1290605562'}
+[2021-07-16 00:01:03,319: INFO/ForkPoolWorker-1] Item 7: {'title': 'This is a longer description that should wrap arround or broken of with ellipsis', 'description': 'Description 8', 'image': 'http://www.gwp.co.uk/wp-content/uploads/2012/10/jit-case-delivery1.jpg'}
+[2021-07-16 00:01:03,339: INFO/ForkPoolWorker-1] Item 8: {'title': 'Item 9', 'description': 'Description 9', 'image': 'http://fc00.deviantart.net/fs70/i/2011/217/a/0/field_panorama_stock_5_by_f3rd4-d45kgfp.jpg'}
+[2021-07-16 00:01:03,348: INFO/ForkPoolWorker-1] Item 9: {'title': 'Item 10Extra line 1Extra line 2Extra line 3', 'description': 'Description 10', 'image': 'https://www.google.nl'}
+[2021-07-16 00:01:03,377: INFO/ForkPoolWorker-1] Item 10: {'title': 'Item 11', 'description': 'Description 11', 'image': ''}
+[2021-07-16 00:01:03,403: INFO/ForkPoolWorker-1] Item 11: {'title': 'Item 12', 'description': 'Description 12', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp9177473.jpg'}
+[2021-07-16 00:01:03,419: INFO/ForkPoolWorker-1] Item 12: {'title': 'Item 13', 'description': 'Description 13', 'image': 'http://farm4.staticflickr.com/3770/10379608353_cb362676b_b.jpg'}
+[2021-07-16 00:01:03,431: INFO/ForkPoolWorker-1] Item 13: {'title': 'Item 14, "extra data"', 'description': 'Description 14', 'image': 'http://www.rubberdragon.com/website-design/44/content/just-in-time-stock.png?1290605562'}
+[2021-07-16 00:01:03,450: INFO/ForkPoolWorker-1] Item 14: {'title': 'Item 15', 'description': 'Description 15', 'image': ''}
+[2021-07-16 00:01:03,469: INFO/ForkPoolWorker-1] Item 15: {'title': 'Item 16', 'description': 'Description 16', 'image': 'http://farm4.staticflickr.com/3789/10437199943_8f6476cef1.jpg'}
+[2021-07-16 00:01:03,478: INFO/ForkPoolWorker-1] Item 16: {'title': 'Item 17', 'description': 'Description 17', 'image': ''}
+[2021-07-16 00:01:03,492: INFO/ForkPoolWorker-1] Item 17: {'title': 'Item 18', 'description': 'Description 18', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp9177473.jpg'}
+[2021-07-16 00:01:03,504: INFO/ForkPoolWorker-1] Item 18: {'title': 'Item 19', 'description': 'Description 19', 'image': 'https://www.google.nl/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&docid=vp47OjPgb8jYjM&tbnid=mB4KC2XedUiDgM:&ved=0CAUQjRw&url=http%3A%2F%2Fwww.naturestocklibrary.com%2F&ei=O8pjUs3_MIbI0QXUnIDIAw&bvm=bv.54934254,d.d2k&psig=AFQjCNHp_WiQTk5MfZ8JliMxj6JYTc206w&ust=1382357938513870'}
+[2021-07-16 00:01:03,517: INFO/ForkPoolWorker-1] Item 19: {'title': 'Item 20', 'description': 'Description 20', 'image': 'http://www.officialpsds.com/images/stocks/ALLEY-stock1502.jpg'}
+[2021-07-16 00:01:03,525: INFO/ForkPoolWorker-1] Item 20: {'title': 'Item 21', 'description': 'Description 21', 'image': 'https://www.google.com'}
+[2021-07-16 00:01:03,536: INFO/ForkPoolWorker-1] Item 21: {'title': 'Item 22', 'description': 'Description 22', 'image': ''}
+[2021-07-16 00:01:03,551: INFO/ForkPoolWorker-1] Item 22: {'title': 'Item 23', 'description': 'Description 23', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp3928973.jpg'}
+[2021-07-16 00:01:03,578: INFO/ForkPoolWorker-1] Item 23: {'title': 'Item 24', 'description': 'Description 24', 'image': ''}
+[2021-07-16 00:01:03,597: INFO/ForkPoolWorker-1] Task api.tasks.download_csv_file_to_cache[57d93756-f9c5-4d73-919b-8aa144d25baa] succeeded in 2.3258912000019336s: 'CSV Contents downloaded and saved to Cache'
+[2021-07-16 00:01:07,082: INFO/MainProcess] Events of group {task} enabled by remote.
+[2021-07-16 00:01:11,135: INFO/MainProcess] Task api.tasks.download_csv_file_to_cache[d4243a02-1e21-4940-bba2-9ddcc40aa366] received
+[2021-07-16 00:01:12,675: ERROR/ForkPoolWorker-1] Task api.tasks.download_csv_file_to_cache[d4243a02-1e21-4940-bba2-9ddcc40aa366] raised unexpected: ResponseError('Unknown index name')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 450, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 731, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/api/tasks.py", line 39, in download_csv_file_to_cache
+    save_to_cache(csv_contents)
+  File "/usr/src/app/api/tasks.py", line 52, in save_to_cache
+    client.add_document(
+  File "/usr/local/lib/python3.9/site-packages/redisearch/client.py", line 377, in add_document
+    return self._add_document(doc_id, conn=None, nosave=nosave, score=score,
+  File "/usr/local/lib/python3.9/site-packages/redisearch/client.py", line 335, in _add_document
+    return conn.execute_command(*args)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 756, in read_response
+    raise response
+redis.exceptions.ResponseError: Unknown index name
+[2021-07-16 00:02:00,000: INFO/MainProcess] Scheduler: Sending due task download_csv_to_cache (api.tasks.download_csv_file_to_cache)
+[2021-07-16 00:02:00,014: INFO/MainProcess] Task api.tasks.download_csv_file_to_cache[556e8d5b-a938-4464-902b-2cd55434761f] received
+[2021-07-16 00:02:01,531: INFO/ForkPoolWorker-1] Item 0: {'title': 'Item 1', 'description': 'Description 1', 'image': 'http://farm4.staticflickr.com/3764/10438039923_2ef6f68348_c.jpg'}
+[2021-07-16 00:02:01,539: INFO/ForkPoolWorker-1] Item 1: {'title': 'Item 2', 'description': 'Description 2', 'image': 'http://www.officialpsds.com/images/stocks/ALLEY-stock1502.jpg'}
+[2021-07-16 00:02:01,543: INFO/ForkPoolWorker-1] Item 2: {'title': 'Item 3', 'description': 'Description 3', 'image': 'https://www.google.com'}
+[2021-07-16 00:02:01,548: INFO/ForkPoolWorker-1] Item 3: {'title': 'Item 4', 'description': 'Description 4, <i>extra info</i>', 'image': ''}
+[2021-07-16 00:02:01,551: INFO/ForkPoolWorker-1] Item 4: {'title': 'Item 5', 'description': 'Description 5', 'image': 'http://ladymanson.com/Goodies/PS%20Tutorials/stock2.jpg'}
+[2021-07-16 00:02:01,555: INFO/ForkPoolWorker-1] Item 5: {'title': 'Item 6, extra info', 'description': '<b>Description 6</b>', 'image': 'http://fc01.deviantart.net/fs17/f/2007/129/7/4/Stock_032__by_enchanted_stock.jpg'}
+[2021-07-16 00:02:01,559: INFO/ForkPoolWorker-1] Item 6: {'title': 'Item 7', 'description': 'Description 7', 'image': 'http://www.rubberdragon.com/website-design/44/content/just-in-time-stock.png?1290605562'}
+[2021-07-16 00:02:01,563: INFO/ForkPoolWorker-1] Item 7: {'title': 'This is a longer description that should wrap arround or broken of with ellipsis', 'description': 'Description 8', 'image': 'http://www.gwp.co.uk/wp-content/uploads/2012/10/jit-case-delivery1.jpg'}
+[2021-07-16 00:02:01,567: INFO/ForkPoolWorker-1] Item 8: {'title': 'Item 9', 'description': 'Description 9', 'image': 'http://fc00.deviantart.net/fs70/i/2011/217/a/0/field_panorama_stock_5_by_f3rd4-d45kgfp.jpg'}
+[2021-07-16 00:02:01,573: INFO/ForkPoolWorker-1] Item 9: {'title': 'Item 10Extra line 1Extra line 2Extra line 3', 'description': 'Description 10', 'image': 'https://www.google.nl'}
+[2021-07-16 00:02:01,579: INFO/ForkPoolWorker-1] Item 10: {'title': 'Item 11', 'description': 'Description 11', 'image': ''}
+[2021-07-16 00:02:01,583: INFO/ForkPoolWorker-1] Item 11: {'title': 'Item 12', 'description': 'Description 12', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp9177473.jpg'}
+[2021-07-16 00:02:01,587: INFO/ForkPoolWorker-1] Item 12: {'title': 'Item 13', 'description': 'Description 13', 'image': 'http://farm4.staticflickr.com/3770/10379608353_cb362676b_b.jpg'}
+[2021-07-16 00:02:01,592: INFO/ForkPoolWorker-1] Item 13: {'title': 'Item 14, "extra data"', 'description': 'Description 14', 'image': 'http://www.rubberdragon.com/website-design/44/content/just-in-time-stock.png?1290605562'}
+[2021-07-16 00:02:01,598: INFO/ForkPoolWorker-1] Item 14: {'title': 'Item 15', 'description': 'Description 15', 'image': ''}
+[2021-07-16 00:02:01,608: INFO/ForkPoolWorker-1] Item 15: {'title': 'Item 16', 'description': 'Description 16', 'image': 'http://farm4.staticflickr.com/3789/10437199943_8f6476cef1.jpg'}
+[2021-07-16 00:02:01,617: INFO/ForkPoolWorker-1] Item 16: {'title': 'Item 17', 'description': 'Description 17', 'image': ''}
+[2021-07-16 00:02:01,624: INFO/ForkPoolWorker-1] Item 17: {'title': 'Item 18', 'description': 'Description 18', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp9177473.jpg'}
+[2021-07-16 00:02:01,631: INFO/ForkPoolWorker-1] Item 18: {'title': 'Item 19', 'description': 'Description 19', 'image': 'https://www.google.nl/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&docid=vp47OjPgb8jYjM&tbnid=mB4KC2XedUiDgM:&ved=0CAUQjRw&url=http%3A%2F%2Fwww.naturestocklibrary.com%2F&ei=O8pjUs3_MIbI0QXUnIDIAw&bvm=bv.54934254,d.d2k&psig=AFQjCNHp_WiQTk5MfZ8JliMxj6JYTc206w&ust=1382357938513870'}
+[2021-07-16 00:02:01,641: INFO/ForkPoolWorker-1] Item 19: {'title': 'Item 20', 'description': 'Description 20', 'image': 'http://www.officialpsds.com/images/stocks/ALLEY-stock1502.jpg'}
+[2021-07-16 00:02:01,652: INFO/ForkPoolWorker-1] Item 20: {'title': 'Item 21', 'description': 'Description 21', 'image': 'https://www.google.com'}
+[2021-07-16 00:02:01,661: INFO/ForkPoolWorker-1] Item 21: {'title': 'Item 22', 'description': 'Description 22', 'image': ''}
+[2021-07-16 00:02:01,667: INFO/ForkPoolWorker-1] Item 22: {'title': 'Item 23', 'description': 'Description 23', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp3928973.jpg'}
+[2021-07-16 00:02:01,673: INFO/ForkPoolWorker-1] Item 23: {'title': 'Item 24', 'description': 'Description 24', 'image': ''}
+[2021-07-16 00:02:01,682: INFO/ForkPoolWorker-1] Task api.tasks.download_csv_file_to_cache[556e8d5b-a938-4464-902b-2cd55434761f] succeeded in 1.6607229000001098s: 'CSV Contents downloaded and saved to Cache'
+[2021-07-16 00:03:00,000: INFO/MainProcess] Scheduler: Sending due task download_csv_to_cache (api.tasks.download_csv_file_to_cache)
+[2021-07-16 00:03:00,006: INFO/MainProcess] Task api.tasks.download_csv_file_to_cache[17eec0a2-271e-43b0-b4d0-b300aff56dc7] received
+[2021-07-16 00:03:01,587: ERROR/ForkPoolWorker-1] Task api.tasks.download_csv_file_to_cache[17eec0a2-271e-43b0-b4d0-b300aff56dc7] raised unexpected: ResponseError('Unknown index name')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 450, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 731, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/api/tasks.py", line 39, in download_csv_file_to_cache
+    save_to_cache(csv_contents)
+  File "/usr/src/app/api/tasks.py", line 52, in save_to_cache
+    client.add_document(
+  File "/usr/local/lib/python3.9/site-packages/redisearch/client.py", line 377, in add_document
+    return self._add_document(doc_id, conn=None, nosave=nosave, score=score,
+  File "/usr/local/lib/python3.9/site-packages/redisearch/client.py", line 335, in _add_document
+    return conn.execute_command(*args)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 756, in read_response
+    raise response
+redis.exceptions.ResponseError: Unknown index name
+[2021-07-16 00:04:00,000: INFO/MainProcess] Scheduler: Sending due task download_csv_to_cache (api.tasks.download_csv_file_to_cache)
+[2021-07-16 00:04:00,007: INFO/MainProcess] Task api.tasks.download_csv_file_to_cache[135a06a7-c10b-4fda-bf9c-f8cffc3cddbc] received
+[2021-07-16 00:04:02,394: INFO/ForkPoolWorker-1] Item 0: {'title': 'Item 1', 'description': 'Description 1', 'image': 'http://farm4.staticflickr.com/3764/10438039923_2ef6f68348_c.jpg'}
+[2021-07-16 00:04:02,407: INFO/ForkPoolWorker-1] Item 1: {'title': 'Item 2', 'description': 'Description 2', 'image': 'http://www.officialpsds.com/images/stocks/ALLEY-stock1502.jpg'}
+[2021-07-16 00:04:02,412: INFO/ForkPoolWorker-1] Item 2: {'title': 'Item 3', 'description': 'Description 3', 'image': 'https://www.google.com'}
+[2021-07-16 00:04:02,416: INFO/ForkPoolWorker-1] Item 3: {'title': 'Item 4', 'description': 'Description 4, <i>extra info</i>', 'image': ''}
+[2021-07-16 00:04:02,420: INFO/ForkPoolWorker-1] Item 4: {'title': 'Item 5', 'description': 'Description 5', 'image': 'http://ladymanson.com/Goodies/PS%20Tutorials/stock2.jpg'}
+[2021-07-16 00:04:02,423: INFO/ForkPoolWorker-1] Item 5: {'title': 'Item 6, extra info', 'description': '<b>Description 6</b>', 'image': 'http://fc01.deviantart.net/fs17/f/2007/129/7/4/Stock_032__by_enchanted_stock.jpg'}
+[2021-07-16 00:04:02,426: INFO/ForkPoolWorker-1] Item 6: {'title': 'Item 7', 'description': 'Description 7', 'image': 'http://www.rubberdragon.com/website-design/44/content/just-in-time-stock.png?1290605562'}
+[2021-07-16 00:04:02,430: INFO/ForkPoolWorker-1] Item 7: {'title': 'This is a longer description that should wrap arround or broken of with ellipsis', 'description': 'Description 8', 'image': 'http://www.gwp.co.uk/wp-content/uploads/2012/10/jit-case-delivery1.jpg'}
+[2021-07-16 00:04:02,435: INFO/ForkPoolWorker-1] Item 8: {'title': 'Item 9', 'description': 'Description 9', 'image': 'http://fc00.deviantart.net/fs70/i/2011/217/a/0/field_panorama_stock_5_by_f3rd4-d45kgfp.jpg'}
+[2021-07-16 00:04:02,441: INFO/ForkPoolWorker-1] Item 9: {'title': 'Item 10Extra line 1Extra line 2Extra line 3', 'description': 'Description 10', 'image': 'https://www.google.nl'}
+[2021-07-16 00:04:02,446: INFO/ForkPoolWorker-1] Item 10: {'title': 'Item 11', 'description': 'Description 11', 'image': ''}
+[2021-07-16 00:04:02,451: INFO/ForkPoolWorker-1] Item 11: {'title': 'Item 12', 'description': 'Description 12', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp9177473.jpg'}
+[2021-07-16 00:04:02,456: INFO/ForkPoolWorker-1] Item 12: {'title': 'Item 13', 'description': 'Description 13', 'image': 'http://farm4.staticflickr.com/3770/10379608353_cb362676b_b.jpg'}
+[2021-07-16 00:04:02,460: INFO/ForkPoolWorker-1] Item 13: {'title': 'Item 14, "extra data"', 'description': 'Description 14', 'image': 'http://www.rubberdragon.com/website-design/44/content/just-in-time-stock.png?1290605562'}
+[2021-07-16 00:04:02,463: INFO/ForkPoolWorker-1] Item 14: {'title': 'Item 15', 'description': 'Description 15', 'image': ''}
+[2021-07-16 00:04:02,466: INFO/ForkPoolWorker-1] Item 15: {'title': 'Item 16', 'description': 'Description 16', 'image': 'http://farm4.staticflickr.com/3789/10437199943_8f6476cef1.jpg'}
+[2021-07-16 00:04:02,470: INFO/ForkPoolWorker-1] Item 16: {'title': 'Item 17', 'description': 'Description 17', 'image': ''}
+[2021-07-16 00:04:02,473: INFO/ForkPoolWorker-1] Item 17: {'title': 'Item 18', 'description': 'Description 18', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp9177473.jpg'}
+[2021-07-16 00:04:02,476: INFO/ForkPoolWorker-1] Item 18: {'title': 'Item 19', 'description': 'Description 19', 'image': 'https://www.google.nl/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&docid=vp47OjPgb8jYjM&tbnid=mB4KC2XedUiDgM:&ved=0CAUQjRw&url=http%3A%2F%2Fwww.naturestocklibrary.com%2F&ei=O8pjUs3_MIbI0QXUnIDIAw&bvm=bv.54934254,d.d2k&psig=AFQjCNHp_WiQTk5MfZ8JliMxj6JYTc206w&ust=1382357938513870'}
+[2021-07-16 00:04:02,480: INFO/ForkPoolWorker-1] Item 19: {'title': 'Item 20', 'description': 'Description 20', 'image': 'http://www.officialpsds.com/images/stocks/ALLEY-stock1502.jpg'}
+[2021-07-16 00:04:02,483: INFO/ForkPoolWorker-1] Item 20: {'title': 'Item 21', 'description': 'Description 21', 'image': 'https://www.google.com'}
+[2021-07-16 00:04:02,486: INFO/ForkPoolWorker-1] Item 21: {'title': 'Item 22', 'description': 'Description 22', 'image': ''}
+[2021-07-16 00:04:02,489: INFO/ForkPoolWorker-1] Item 22: {'title': 'Item 23', 'description': 'Description 23', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp3928973.jpg'}
+[2021-07-16 00:04:02,492: INFO/ForkPoolWorker-1] Item 23: {'title': 'Item 24', 'description': 'Description 24', 'image': ''}
+[2021-07-16 00:04:02,498: INFO/ForkPoolWorker-1] Task api.tasks.download_csv_file_to_cache[135a06a7-c10b-4fda-bf9c-f8cffc3cddbc] succeeded in 2.4837797000000137s: 'CSV Contents downloaded and saved to Cache'
+[2021-07-16 00:05:00,000: INFO/MainProcess] Scheduler: Sending due task download_csv_to_cache (api.tasks.download_csv_file_to_cache)
+[2021-07-16 00:05:00,013: INFO/MainProcess] Task api.tasks.download_csv_file_to_cache[a27ffbc2-30a0-47ba-a957-9a9fba1fc9f9] received
+[2021-07-16 00:05:01,525: ERROR/ForkPoolWorker-1] Task api.tasks.download_csv_file_to_cache[a27ffbc2-30a0-47ba-a957-9a9fba1fc9f9] raised unexpected: ResponseError('Unknown index name')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 450, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 731, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/api/tasks.py", line 39, in download_csv_file_to_cache
+    save_to_cache(csv_contents)
+  File "/usr/src/app/api/tasks.py", line 52, in save_to_cache
+    client.add_document(
+  File "/usr/local/lib/python3.9/site-packages/redisearch/client.py", line 377, in add_document
+    return self._add_document(doc_id, conn=None, nosave=nosave, score=score,
+  File "/usr/local/lib/python3.9/site-packages/redisearch/client.py", line 335, in _add_document
+    return conn.execute_command(*args)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 756, in read_response
+    raise response
+redis.exceptions.ResponseError: Unknown index name
+[2021-07-16 00:06:00,000: INFO/MainProcess] Scheduler: Sending due task download_csv_to_cache (api.tasks.download_csv_file_to_cache)
+[2021-07-16 00:06:00,014: INFO/MainProcess] Task api.tasks.download_csv_file_to_cache[81bdfd36-edc9-4f06-8d30-6451549e64de] received
+[2021-07-16 00:06:02,154: INFO/ForkPoolWorker-1] Item 0: {'title': 'Item 1', 'description': 'Description 1', 'image': 'http://farm4.staticflickr.com/3764/10438039923_2ef6f68348_c.jpg'}
+[2021-07-16 00:06:02,161: INFO/ForkPoolWorker-1] Item 1: {'title': 'Item 2', 'description': 'Description 2', 'image': 'http://www.officialpsds.com/images/stocks/ALLEY-stock1502.jpg'}
+[2021-07-16 00:06:02,166: INFO/ForkPoolWorker-1] Item 2: {'title': 'Item 3', 'description': 'Description 3', 'image': 'https://www.google.com'}
+[2021-07-16 00:06:02,169: INFO/ForkPoolWorker-1] Item 3: {'title': 'Item 4', 'description': 'Description 4, <i>extra info</i>', 'image': ''}
+[2021-07-16 00:06:02,173: INFO/ForkPoolWorker-1] Item 4: {'title': 'Item 5', 'description': 'Description 5', 'image': 'http://ladymanson.com/Goodies/PS%20Tutorials/stock2.jpg'}
+[2021-07-16 00:06:02,177: INFO/ForkPoolWorker-1] Item 5: {'title': 'Item 6, extra info', 'description': '<b>Description 6</b>', 'image': 'http://fc01.deviantart.net/fs17/f/2007/129/7/4/Stock_032__by_enchanted_stock.jpg'}
+[2021-07-16 00:06:02,183: INFO/ForkPoolWorker-1] Item 6: {'title': 'Item 7', 'description': 'Description 7', 'image': 'http://www.rubberdragon.com/website-design/44/content/just-in-time-stock.png?1290605562'}
+[2021-07-16 00:06:02,190: INFO/ForkPoolWorker-1] Item 7: {'title': 'This is a longer description that should wrap arround or broken of with ellipsis', 'description': 'Description 8', 'image': 'http://www.gwp.co.uk/wp-content/uploads/2012/10/jit-case-delivery1.jpg'}
+[2021-07-16 00:06:02,194: INFO/ForkPoolWorker-1] Item 8: {'title': 'Item 9', 'description': 'Description 9', 'image': 'http://fc00.deviantart.net/fs70/i/2011/217/a/0/field_panorama_stock_5_by_f3rd4-d45kgfp.jpg'}
+[2021-07-16 00:06:02,198: INFO/ForkPoolWorker-1] Item 9: {'title': 'Item 10Extra line 1Extra line 2Extra line 3', 'description': 'Description 10', 'image': 'https://www.google.nl'}
+[2021-07-16 00:06:02,203: INFO/ForkPoolWorker-1] Item 10: {'title': 'Item 11', 'description': 'Description 11', 'image': ''}
+[2021-07-16 00:06:02,208: INFO/ForkPoolWorker-1] Item 11: {'title': 'Item 12', 'description': 'Description 12', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp9177473.jpg'}
+[2021-07-16 00:06:02,211: INFO/ForkPoolWorker-1] Item 12: {'title': 'Item 13', 'description': 'Description 13', 'image': 'http://farm4.staticflickr.com/3770/10379608353_cb362676b_b.jpg'}
+[2021-07-16 00:06:02,216: INFO/ForkPoolWorker-1] Item 13: {'title': 'Item 14, "extra data"', 'description': 'Description 14', 'image': 'http://www.rubberdragon.com/website-design/44/content/just-in-time-stock.png?1290605562'}
+[2021-07-16 00:06:02,218: INFO/ForkPoolWorker-1] Item 14: {'title': 'Item 15', 'description': 'Description 15', 'image': ''}
+[2021-07-16 00:06:02,223: INFO/ForkPoolWorker-1] Item 15: {'title': 'Item 16', 'description': 'Description 16', 'image': 'http://farm4.staticflickr.com/3789/10437199943_8f6476cef1.jpg'}
+[2021-07-16 00:06:02,226: INFO/ForkPoolWorker-1] Item 16: {'title': 'Item 17', 'description': 'Description 17', 'image': ''}
+[2021-07-16 00:06:02,230: INFO/ForkPoolWorker-1] Item 17: {'title': 'Item 18', 'description': 'Description 18', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp9177473.jpg'}
+[2021-07-16 00:06:02,234: INFO/ForkPoolWorker-1] Item 18: {'title': 'Item 19', 'description': 'Description 19', 'image': 'https://www.google.nl/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&docid=vp47OjPgb8jYjM&tbnid=mB4KC2XedUiDgM:&ved=0CAUQjRw&url=http%3A%2F%2Fwww.naturestocklibrary.com%2F&ei=O8pjUs3_MIbI0QXUnIDIAw&bvm=bv.54934254,d.d2k&psig=AFQjCNHp_WiQTk5MfZ8JliMxj6JYTc206w&ust=1382357938513870'}
+[2021-07-16 00:06:02,237: INFO/ForkPoolWorker-1] Item 19: {'title': 'Item 20', 'description': 'Description 20', 'image': 'http://www.officialpsds.com/images/stocks/ALLEY-stock1502.jpg'}
+[2021-07-16 00:06:02,241: INFO/ForkPoolWorker-1] Item 20: {'title': 'Item 21', 'description': 'Description 21', 'image': 'https://www.google.com'}
+[2021-07-16 00:06:02,246: INFO/ForkPoolWorker-1] Item 21: {'title': 'Item 22', 'description': 'Description 22', 'image': ''}
+[2021-07-16 00:06:02,250: INFO/ForkPoolWorker-1] Item 22: {'title': 'Item 23', 'description': 'Description 23', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp3928973.jpg'}
+[2021-07-16 00:06:02,254: INFO/ForkPoolWorker-1] Item 23: {'title': 'Item 24', 'description': 'Description 24', 'image': ''}
+[2021-07-16 00:06:02,258: INFO/ForkPoolWorker-1] Task api.tasks.download_csv_file_to_cache[81bdfd36-edc9-4f06-8d30-6451549e64de] succeeded in 2.2363804999986314s: 'CSV Contents downloaded and saved to Cache'
+[2021-07-16 00:07:00,000: INFO/MainProcess] Scheduler: Sending due task download_csv_to_cache (api.tasks.download_csv_file_to_cache)
+[2021-07-16 00:07:00,007: INFO/MainProcess] Task api.tasks.download_csv_file_to_cache[eabe6303-40b5-4370-a2e5-60d95aef161f] received
+[2021-07-16 00:07:02,039: ERROR/ForkPoolWorker-1] Task api.tasks.download_csv_file_to_cache[eabe6303-40b5-4370-a2e5-60d95aef161f] raised unexpected: ResponseError('Unknown index name')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 450, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 731, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/api/tasks.py", line 39, in download_csv_file_to_cache
+    save_to_cache(csv_contents)
+  File "/usr/src/app/api/tasks.py", line 52, in save_to_cache
+    client.add_document(
+  File "/usr/local/lib/python3.9/site-packages/redisearch/client.py", line 377, in add_document
+    return self._add_document(doc_id, conn=None, nosave=nosave, score=score,
+  File "/usr/local/lib/python3.9/site-packages/redisearch/client.py", line 335, in _add_document
+    return conn.execute_command(*args)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 756, in read_response
+    raise response
+redis.exceptions.ResponseError: Unknown index name
+[2021-07-16 00:08:00,000: INFO/MainProcess] Scheduler: Sending due task download_csv_to_cache (api.tasks.download_csv_file_to_cache)
+[2021-07-16 00:08:00,007: INFO/MainProcess] Task api.tasks.download_csv_file_to_cache[c67bd60f-1826-46a7-aabb-92fd08bc5314] received
+[2021-07-16 00:08:02,222: INFO/ForkPoolWorker-1] Item 0: {'title': 'Item 1', 'description': 'Description 1', 'image': 'http://farm4.staticflickr.com/3764/10438039923_2ef6f68348_c.jpg'}
+[2021-07-16 00:08:02,228: INFO/ForkPoolWorker-1] Item 1: {'title': 'Item 2', 'description': 'Description 2', 'image': 'http://www.officialpsds.com/images/stocks/ALLEY-stock1502.jpg'}
+[2021-07-16 00:08:02,232: INFO/ForkPoolWorker-1] Item 2: {'title': 'Item 3', 'description': 'Description 3', 'image': 'https://www.google.com'}
+[2021-07-16 00:08:02,237: INFO/ForkPoolWorker-1] Item 3: {'title': 'Item 4', 'description': 'Description 4, <i>extra info</i>', 'image': ''}
+[2021-07-16 00:08:02,240: INFO/ForkPoolWorker-1] Item 4: {'title': 'Item 5', 'description': 'Description 5', 'image': 'http://ladymanson.com/Goodies/PS%20Tutorials/stock2.jpg'}
+[2021-07-16 00:08:02,245: INFO/ForkPoolWorker-1] Item 5: {'title': 'Item 6, extra info', 'description': '<b>Description 6</b>', 'image': 'http://fc01.deviantart.net/fs17/f/2007/129/7/4/Stock_032__by_enchanted_stock.jpg'}
+[2021-07-16 00:08:02,250: INFO/ForkPoolWorker-1] Item 6: {'title': 'Item 7', 'description': 'Description 7', 'image': 'http://www.rubberdragon.com/website-design/44/content/just-in-time-stock.png?1290605562'}
+[2021-07-16 00:08:02,257: INFO/ForkPoolWorker-1] Item 7: {'title': 'This is a longer description that should wrap arround or broken of with ellipsis', 'description': 'Description 8', 'image': 'http://www.gwp.co.uk/wp-content/uploads/2012/10/jit-case-delivery1.jpg'}
+[2021-07-16 00:08:02,261: INFO/ForkPoolWorker-1] Item 8: {'title': 'Item 9', 'description': 'Description 9', 'image': 'http://fc00.deviantart.net/fs70/i/2011/217/a/0/field_panorama_stock_5_by_f3rd4-d45kgfp.jpg'}
+[2021-07-16 00:08:02,264: INFO/ForkPoolWorker-1] Item 9: {'title': 'Item 10Extra line 1Extra line 2Extra line 3', 'description': 'Description 10', 'image': 'https://www.google.nl'}
+[2021-07-16 00:08:02,269: INFO/ForkPoolWorker-1] Item 10: {'title': 'Item 11', 'description': 'Description 11', 'image': ''}
+[2021-07-16 00:08:02,274: INFO/ForkPoolWorker-1] Item 11: {'title': 'Item 12', 'description': 'Description 12', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp9177473.jpg'}
+[2021-07-16 00:08:02,278: INFO/ForkPoolWorker-1] Item 12: {'title': 'Item 13', 'description': 'Description 13', 'image': 'http://farm4.staticflickr.com/3770/10379608353_cb362676b_b.jpg'}
+[2021-07-16 00:08:02,282: INFO/ForkPoolWorker-1] Item 13: {'title': 'Item 14, "extra data"', 'description': 'Description 14', 'image': 'http://www.rubberdragon.com/website-design/44/content/just-in-time-stock.png?1290605562'}
+[2021-07-16 00:08:02,286: INFO/ForkPoolWorker-1] Item 14: {'title': 'Item 15', 'description': 'Description 15', 'image': ''}
+[2021-07-16 00:08:02,289: INFO/ForkPoolWorker-1] Item 15: {'title': 'Item 16', 'description': 'Description 16', 'image': 'http://farm4.staticflickr.com/3789/10437199943_8f6476cef1.jpg'}
+[2021-07-16 00:08:02,293: INFO/ForkPoolWorker-1] Item 16: {'title': 'Item 17', 'description': 'Description 17', 'image': ''}
+[2021-07-16 00:08:02,296: INFO/ForkPoolWorker-1] Item 17: {'title': 'Item 18', 'description': 'Description 18', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp9177473.jpg'}
+[2021-07-16 00:08:02,299: INFO/ForkPoolWorker-1] Item 18: {'title': 'Item 19', 'description': 'Description 19', 'image': 'https://www.google.nl/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&docid=vp47OjPgb8jYjM&tbnid=mB4KC2XedUiDgM:&ved=0CAUQjRw&url=http%3A%2F%2Fwww.naturestocklibrary.com%2F&ei=O8pjUs3_MIbI0QXUnIDIAw&bvm=bv.54934254,d.d2k&psig=AFQjCNHp_WiQTk5MfZ8JliMxj6JYTc206w&ust=1382357938513870'}
+[2021-07-16 00:08:02,302: INFO/ForkPoolWorker-1] Item 19: {'title': 'Item 20', 'description': 'Description 20', 'image': 'http://www.officialpsds.com/images/stocks/ALLEY-stock1502.jpg'}
+[2021-07-16 00:08:02,305: INFO/ForkPoolWorker-1] Item 20: {'title': 'Item 21', 'description': 'Description 21', 'image': 'https://www.google.com'}
+[2021-07-16 00:08:02,308: INFO/ForkPoolWorker-1] Item 21: {'title': 'Item 22', 'description': 'Description 22', 'image': ''}
+[2021-07-16 00:08:02,311: INFO/ForkPoolWorker-1] Item 22: {'title': 'Item 23', 'description': 'Description 23', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp3928973.jpg'}
+[2021-07-16 00:08:02,314: INFO/ForkPoolWorker-1] Item 23: {'title': 'Item 24', 'description': 'Description 24', 'image': ''}
+[2021-07-16 00:08:02,318: INFO/ForkPoolWorker-1] Task api.tasks.download_csv_file_to_cache[c67bd60f-1826-46a7-aabb-92fd08bc5314] succeeded in 2.3065949999981967s: 'CSV Contents downloaded and saved to Cache'
+[2021-07-16 00:09:00,000: INFO/MainProcess] Scheduler: Sending due task download_csv_to_cache (api.tasks.download_csv_file_to_cache)
+[2021-07-16 00:09:00,015: INFO/MainProcess] Task api.tasks.download_csv_file_to_cache[841becf7-2e5d-4a17-adb8-0749fbfa0b65] received
+[2021-07-16 00:09:01,767: ERROR/ForkPoolWorker-1] Task api.tasks.download_csv_file_to_cache[841becf7-2e5d-4a17-adb8-0749fbfa0b65] raised unexpected: ResponseError('Unknown index name')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 450, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 731, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/api/tasks.py", line 39, in download_csv_file_to_cache
+    save_to_cache(csv_contents)
+  File "/usr/src/app/api/tasks.py", line 52, in save_to_cache
+    client.add_document(
+  File "/usr/local/lib/python3.9/site-packages/redisearch/client.py", line 377, in add_document
+    return self._add_document(doc_id, conn=None, nosave=nosave, score=score,
+  File "/usr/local/lib/python3.9/site-packages/redisearch/client.py", line 335, in _add_document
+    return conn.execute_command(*args)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 756, in read_response
+    raise response
+redis.exceptions.ResponseError: Unknown index name
+[2021-07-16 00:10:00,002: INFO/MainProcess] Scheduler: Sending due task download_csv_to_cache (api.tasks.download_csv_file_to_cache)
+[2021-07-16 00:10:00,014: INFO/MainProcess] Task api.tasks.download_csv_file_to_cache[40133fd7-24bb-4358-acf6-91627bca0b83] received
+[2021-07-16 00:10:01,947: INFO/ForkPoolWorker-1] Item 0: {'title': 'Item 1', 'description': 'Description 1', 'image': 'http://farm4.staticflickr.com/3764/10438039923_2ef6f68348_c.jpg'}
+[2021-07-16 00:10:01,953: INFO/ForkPoolWorker-1] Item 1: {'title': 'Item 2', 'description': 'Description 2', 'image': 'http://www.officialpsds.com/images/stocks/ALLEY-stock1502.jpg'}
+[2021-07-16 00:10:01,957: INFO/ForkPoolWorker-1] Item 2: {'title': 'Item 3', 'description': 'Description 3', 'image': 'https://www.google.com'}
+[2021-07-16 00:10:01,961: INFO/ForkPoolWorker-1] Item 3: {'title': 'Item 4', 'description': 'Description 4, <i>extra info</i>', 'image': ''}
+[2021-07-16 00:10:01,964: INFO/ForkPoolWorker-1] Item 4: {'title': 'Item 5', 'description': 'Description 5', 'image': 'http://ladymanson.com/Goodies/PS%20Tutorials/stock2.jpg'}
+[2021-07-16 00:10:01,968: INFO/ForkPoolWorker-1] Item 5: {'title': 'Item 6, extra info', 'description': '<b>Description 6</b>', 'image': 'http://fc01.deviantart.net/fs17/f/2007/129/7/4/Stock_032__by_enchanted_stock.jpg'}
+[2021-07-16 00:10:01,975: INFO/ForkPoolWorker-1] Item 6: {'title': 'Item 7', 'description': 'Description 7', 'image': 'http://www.rubberdragon.com/website-design/44/content/just-in-time-stock.png?1290605562'}
+[2021-07-16 00:10:01,979: INFO/ForkPoolWorker-1] Item 7: {'title': 'This is a longer description that should wrap arround or broken of with ellipsis', 'description': 'Description 8', 'image': 'http://www.gwp.co.uk/wp-content/uploads/2012/10/jit-case-delivery1.jpg'}
+[2021-07-16 00:10:01,982: INFO/ForkPoolWorker-1] Item 8: {'title': 'Item 9', 'description': 'Description 9', 'image': 'http://fc00.deviantart.net/fs70/i/2011/217/a/0/field_panorama_stock_5_by_f3rd4-d45kgfp.jpg'}
+[2021-07-16 00:10:01,987: INFO/ForkPoolWorker-1] Item 9: {'title': 'Item 10Extra line 1Extra line 2Extra line 3', 'description': 'Description 10', 'image': 'https://www.google.nl'}
+[2021-07-16 00:10:01,993: INFO/ForkPoolWorker-1] Item 10: {'title': 'Item 11', 'description': 'Description 11', 'image': ''}
+[2021-07-16 00:10:01,997: INFO/ForkPoolWorker-1] Item 11: {'title': 'Item 12', 'description': 'Description 12', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp9177473.jpg'}
+[2021-07-16 00:10:02,000: INFO/ForkPoolWorker-1] Item 12: {'title': 'Item 13', 'description': 'Description 13', 'image': 'http://farm4.staticflickr.com/3770/10379608353_cb362676b_b.jpg'}
+[2021-07-16 00:10:02,004: INFO/ForkPoolWorker-1] Item 13: {'title': 'Item 14, "extra data"', 'description': 'Description 14', 'image': 'http://www.rubberdragon.com/website-design/44/content/just-in-time-stock.png?1290605562'}
+[2021-07-16 00:10:02,008: INFO/ForkPoolWorker-1] Item 14: {'title': 'Item 15', 'description': 'Description 15', 'image': ''}
+[2021-07-16 00:10:02,012: INFO/ForkPoolWorker-1] Item 15: {'title': 'Item 16', 'description': 'Description 16', 'image': 'http://farm4.staticflickr.com/3789/10437199943_8f6476cef1.jpg'}
+[2021-07-16 00:10:02,016: INFO/ForkPoolWorker-1] Item 16: {'title': 'Item 17', 'description': 'Description 17', 'image': ''}
+[2021-07-16 00:10:02,020: INFO/ForkPoolWorker-1] Item 17: {'title': 'Item 18', 'description': 'Description 18', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp9177473.jpg'}
+[2021-07-16 00:10:02,023: INFO/ForkPoolWorker-1] Item 18: {'title': 'Item 19', 'description': 'Description 19', 'image': 'https://www.google.nl/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&docid=vp47OjPgb8jYjM&tbnid=mB4KC2XedUiDgM:&ved=0CAUQjRw&url=http%3A%2F%2Fwww.naturestocklibrary.com%2F&ei=O8pjUs3_MIbI0QXUnIDIAw&bvm=bv.54934254,d.d2k&psig=AFQjCNHp_WiQTk5MfZ8JliMxj6JYTc206w&ust=1382357938513870'}
+[2021-07-16 00:10:02,027: INFO/ForkPoolWorker-1] Item 19: {'title': 'Item 20', 'description': 'Description 20', 'image': 'http://www.officialpsds.com/images/stocks/ALLEY-stock1502.jpg'}
+[2021-07-16 00:10:02,031: INFO/ForkPoolWorker-1] Item 20: {'title': 'Item 21', 'description': 'Description 21', 'image': 'https://www.google.com'}
+[2021-07-16 00:10:02,034: INFO/ForkPoolWorker-1] Item 21: {'title': 'Item 22', 'description': 'Description 22', 'image': ''}
+[2021-07-16 00:10:02,038: INFO/ForkPoolWorker-1] Item 22: {'title': 'Item 23', 'description': 'Description 23', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp3928973.jpg'}
+[2021-07-16 00:10:02,041: INFO/ForkPoolWorker-1] Item 23: {'title': 'Item 24', 'description': 'Description 24', 'image': ''}
+[2021-07-16 00:10:02,048: INFO/ForkPoolWorker-1] Task api.tasks.download_csv_file_to_cache[40133fd7-24bb-4358-acf6-91627bca0b83] succeeded in 2.0249583999975584s: 'CSV Contents downloaded and saved to Cache'
+[2021-07-16 00:12:15,485: INFO/MainProcess] beat: Starting...
+[2021-07-16 00:12:16,445: INFO/MainProcess] Connected to redis://redis:6379//
+[2021-07-16 00:12:16,486: INFO/MainProcess] mingle: searching for neighbors
+[2021-07-16 00:12:17,556: INFO/MainProcess] mingle: all alone
+[2021-07-16 00:12:17,614: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2021-07-16 00:12:17,621: INFO/MainProcess] celery@7f41132db9ba ready.
+[2021-07-16 00:12:17,974: INFO/MainProcess] Task api.tasks.download_csv_file_to_cache[647f4a3f-2817-4b03-8b36-a45df5b6c11b] received
+[2021-07-16 00:12:19,767: INFO/ForkPoolWorker-1] Item 0: {'title': 'Item 1', 'description': 'Description 1', 'image': 'http://farm4.staticflickr.com/3764/10438039923_2ef6f68348_c.jpg'}
+[2021-07-16 00:12:19,775: INFO/ForkPoolWorker-1] Item 1: {'title': 'Item 2', 'description': 'Description 2', 'image': 'http://www.officialpsds.com/images/stocks/ALLEY-stock1502.jpg'}
+[2021-07-16 00:12:19,781: INFO/ForkPoolWorker-1] Item 2: {'title': 'Item 3', 'description': 'Description 3', 'image': 'https://www.google.com'}
+[2021-07-16 00:12:19,787: INFO/ForkPoolWorker-1] Item 3: {'title': 'Item 4', 'description': 'Description 4, <i>extra info</i>', 'image': ''}
+[2021-07-16 00:12:19,798: INFO/ForkPoolWorker-1] Item 4: {'title': 'Item 5', 'description': 'Description 5', 'image': 'http://ladymanson.com/Goodies/PS%20Tutorials/stock2.jpg'}
+[2021-07-16 00:12:19,809: INFO/ForkPoolWorker-1] Item 5: {'title': 'Item 6, extra info', 'description': '<b>Description 6</b>', 'image': 'http://fc01.deviantart.net/fs17/f/2007/129/7/4/Stock_032__by_enchanted_stock.jpg'}
+[2021-07-16 00:12:19,822: INFO/ForkPoolWorker-1] Item 6: {'title': 'Item 7', 'description': 'Description 7', 'image': 'http://www.rubberdragon.com/website-design/44/content/just-in-time-stock.png?1290605562'}
+[2021-07-16 00:12:19,830: INFO/ForkPoolWorker-1] Item 7: {'title': 'This is a longer description that should wrap arround or broken of with ellipsis', 'description': 'Description 8', 'image': 'http://www.gwp.co.uk/wp-content/uploads/2012/10/jit-case-delivery1.jpg'}
+[2021-07-16 00:12:19,837: INFO/ForkPoolWorker-1] Item 8: {'title': 'Item 9', 'description': 'Description 9', 'image': 'http://fc00.deviantart.net/fs70/i/2011/217/a/0/field_panorama_stock_5_by_f3rd4-d45kgfp.jpg'}
+[2021-07-16 00:12:19,843: INFO/ForkPoolWorker-1] Item 9: {'title': 'Item 10Extra line 1Extra line 2Extra line 3', 'description': 'Description 10', 'image': 'https://www.google.nl'}
+[2021-07-16 00:12:19,850: INFO/ForkPoolWorker-1] Item 10: {'title': 'Item 11', 'description': 'Description 11', 'image': ''}
+[2021-07-16 00:12:19,866: INFO/ForkPoolWorker-1] Item 11: {'title': 'Item 12', 'description': 'Description 12', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp9177473.jpg'}
+[2021-07-16 00:12:19,872: INFO/ForkPoolWorker-1] Item 12: {'title': 'Item 13', 'description': 'Description 13', 'image': 'http://farm4.staticflickr.com/3770/10379608353_cb362676b_b.jpg'}
+[2021-07-16 00:12:19,877: INFO/ForkPoolWorker-1] Item 13: {'title': 'Item 14, "extra data"', 'description': 'Description 14', 'image': 'http://www.rubberdragon.com/website-design/44/content/just-in-time-stock.png?1290605562'}
+[2021-07-16 00:12:19,883: INFO/ForkPoolWorker-1] Item 14: {'title': 'Item 15', 'description': 'Description 15', 'image': ''}
+[2021-07-16 00:12:19,889: INFO/ForkPoolWorker-1] Item 15: {'title': 'Item 16', 'description': 'Description 16', 'image': 'http://farm4.staticflickr.com/3789/10437199943_8f6476cef1.jpg'}
+[2021-07-16 00:12:19,894: INFO/ForkPoolWorker-1] Item 16: {'title': 'Item 17', 'description': 'Description 17', 'image': ''}
+[2021-07-16 00:12:19,900: INFO/ForkPoolWorker-1] Item 17: {'title': 'Item 18', 'description': 'Description 18', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp9177473.jpg'}
+[2021-07-16 00:12:19,905: INFO/ForkPoolWorker-1] Item 18: {'title': 'Item 19', 'description': 'Description 19', 'image': 'https://www.google.nl/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&docid=vp47OjPgb8jYjM&tbnid=mB4KC2XedUiDgM:&ved=0CAUQjRw&url=http%3A%2F%2Fwww.naturestocklibrary.com%2F&ei=O8pjUs3_MIbI0QXUnIDIAw&bvm=bv.54934254,d.d2k&psig=AFQjCNHp_WiQTk5MfZ8JliMxj6JYTc206w&ust=1382357938513870'}
+[2021-07-16 00:12:19,910: INFO/ForkPoolWorker-1] Item 19: {'title': 'Item 20', 'description': 'Description 20', 'image': 'http://www.officialpsds.com/images/stocks/ALLEY-stock1502.jpg'}
+[2021-07-16 00:12:19,915: INFO/ForkPoolWorker-1] Item 20: {'title': 'Item 21', 'description': 'Description 21', 'image': 'https://www.google.com'}
+[2021-07-16 00:12:19,920: INFO/ForkPoolWorker-1] Item 21: {'title': 'Item 22', 'description': 'Description 22', 'image': ''}
+[2021-07-16 00:12:19,927: INFO/ForkPoolWorker-1] Item 22: {'title': 'Item 23', 'description': 'Description 23', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp3928973.jpg'}
+[2021-07-16 00:12:19,933: INFO/ForkPoolWorker-1] Item 23: {'title': 'Item 24', 'description': 'Description 24', 'image': ''}
+[2021-07-16 00:12:19,947: INFO/ForkPoolWorker-1] Task api.tasks.download_csv_file_to_cache[647f4a3f-2817-4b03-8b36-a45df5b6c11b] succeeded in 1.9669227000013052s: 'CSV Contents downloaded and saved to Cache'
+[2021-07-16 00:12:22,364: INFO/MainProcess] Events of group {task} enabled by remote.
+[2021-07-16 00:28:56,031: INFO/MainProcess] beat: Starting...
+[2021-07-16 00:28:57,007: INFO/MainProcess] Connected to redis://redis:6379//
+[2021-07-16 00:28:57,035: INFO/MainProcess] mingle: searching for neighbors
+[2021-07-16 00:28:58,129: INFO/MainProcess] mingle: all alone
+[2021-07-16 00:28:58,207: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2021-07-16 00:28:58,213: INFO/MainProcess] celery@11305062ae0f ready.
+[2021-07-16 00:28:58,848: INFO/MainProcess] Task api.tasks.download_csv_file_to_cache[d77c29bd-7c10-4705-8609-9dc979ee9903] received
+[2021-07-16 00:29:01,179: INFO/ForkPoolWorker-1] Item 0: {'title': 'Item 1', 'description': 'Description 1', 'image': 'http://farm4.staticflickr.com/3764/10438039923_2ef6f68348_c.jpg'}
+[2021-07-16 00:29:01,186: INFO/ForkPoolWorker-1] Item 1: {'title': 'Item 2', 'description': 'Description 2', 'image': 'http://www.officialpsds.com/images/stocks/ALLEY-stock1502.jpg'}
+[2021-07-16 00:29:01,192: INFO/ForkPoolWorker-1] Item 2: {'title': 'Item 3', 'description': 'Description 3', 'image': 'https://www.google.com'}
+[2021-07-16 00:29:01,198: INFO/ForkPoolWorker-1] Item 3: {'title': 'Item 4', 'description': 'Description 4, <i>extra info</i>', 'image': ''}
+[2021-07-16 00:29:01,205: INFO/ForkPoolWorker-1] Item 4: {'title': 'Item 5', 'description': 'Description 5', 'image': 'http://ladymanson.com/Goodies/PS%20Tutorials/stock2.jpg'}
+[2021-07-16 00:29:01,211: INFO/ForkPoolWorker-1] Item 5: {'title': 'Item 6, extra info', 'description': '<b>Description 6</b>', 'image': 'http://fc01.deviantart.net/fs17/f/2007/129/7/4/Stock_032__by_enchanted_stock.jpg'}
+[2021-07-16 00:29:01,217: INFO/ForkPoolWorker-1] Item 6: {'title': 'Item 7', 'description': 'Description 7', 'image': 'http://www.rubberdragon.com/website-design/44/content/just-in-time-stock.png?1290605562'}
+[2021-07-16 00:29:01,223: INFO/ForkPoolWorker-1] Item 7: {'title': 'This is a longer description that should wrap arround or broken of with ellipsis', 'description': 'Description 8', 'image': 'http://www.gwp.co.uk/wp-content/uploads/2012/10/jit-case-delivery1.jpg'}
+[2021-07-16 00:29:01,228: INFO/ForkPoolWorker-1] Item 8: {'title': 'Item 9', 'description': 'Description 9', 'image': 'http://fc00.deviantart.net/fs70/i/2011/217/a/0/field_panorama_stock_5_by_f3rd4-d45kgfp.jpg'}
+[2021-07-16 00:29:01,233: INFO/ForkPoolWorker-1] Item 9: {'title': 'Item 10Extra line 1Extra line 2Extra line 3', 'description': 'Description 10', 'image': 'https://www.google.nl'}
+[2021-07-16 00:29:01,238: INFO/ForkPoolWorker-1] Item 10: {'title': 'Item 11', 'description': 'Description 11', 'image': ''}
+[2021-07-16 00:29:01,244: INFO/ForkPoolWorker-1] Item 11: {'title': 'Item 12', 'description': 'Description 12', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp9177473.jpg'}
+[2021-07-16 00:29:01,249: INFO/ForkPoolWorker-1] Item 12: {'title': 'Item 13', 'description': 'Description 13', 'image': 'http://farm4.staticflickr.com/3770/10379608353_cb362676b_b.jpg'}
+[2021-07-16 00:29:01,254: INFO/ForkPoolWorker-1] Item 13: {'title': 'Item 14, "extra data"', 'description': 'Description 14', 'image': 'http://www.rubberdragon.com/website-design/44/content/just-in-time-stock.png?1290605562'}
+[2021-07-16 00:29:01,260: INFO/ForkPoolWorker-1] Item 14: {'title': 'Item 15', 'description': 'Description 15', 'image': ''}
+[2021-07-16 00:29:01,266: INFO/ForkPoolWorker-1] Item 15: {'title': 'Item 16', 'description': 'Description 16', 'image': 'http://farm4.staticflickr.com/3789/10437199943_8f6476cef1.jpg'}
+[2021-07-16 00:29:01,271: INFO/ForkPoolWorker-1] Item 16: {'title': 'Item 17', 'description': 'Description 17', 'image': ''}
+[2021-07-16 00:29:01,275: INFO/ForkPoolWorker-1] Item 17: {'title': 'Item 18', 'description': 'Description 18', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp9177473.jpg'}
+[2021-07-16 00:29:01,280: INFO/ForkPoolWorker-1] Item 18: {'title': 'Item 19', 'description': 'Description 19', 'image': 'https://www.google.nl/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&docid=vp47OjPgb8jYjM&tbnid=mB4KC2XedUiDgM:&ved=0CAUQjRw&url=http%3A%2F%2Fwww.naturestocklibrary.com%2F&ei=O8pjUs3_MIbI0QXUnIDIAw&bvm=bv.54934254,d.d2k&psig=AFQjCNHp_WiQTk5MfZ8JliMxj6JYTc206w&ust=1382357938513870'}
+[2021-07-16 00:29:01,285: INFO/ForkPoolWorker-1] Item 19: {'title': 'Item 20', 'description': 'Description 20', 'image': 'http://www.officialpsds.com/images/stocks/ALLEY-stock1502.jpg'}
+[2021-07-16 00:29:01,290: INFO/ForkPoolWorker-1] Item 20: {'title': 'Item 21', 'description': 'Description 21', 'image': 'https://www.google.com'}
+[2021-07-16 00:29:01,295: INFO/ForkPoolWorker-1] Item 21: {'title': 'Item 22', 'description': 'Description 22', 'image': ''}
+[2021-07-16 00:29:01,300: INFO/ForkPoolWorker-1] Item 22: {'title': 'Item 23', 'description': 'Description 23', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp3928973.jpg'}
+[2021-07-16 00:29:01,305: INFO/ForkPoolWorker-1] Item 23: {'title': 'Item 24', 'description': 'Description 24', 'image': ''}
+[2021-07-16 00:29:01,317: INFO/ForkPoolWorker-1] Task api.tasks.download_csv_file_to_cache[d77c29bd-7c10-4705-8609-9dc979ee9903] succeeded in 2.460275299999921s: 'CSV Contents downloaded and saved to Cache'
+[2021-07-16 00:29:03,321: INFO/MainProcess] Events of group {task} enabled by remote.
+[2021-07-16 00:38:07,202: INFO/MainProcess] beat: Starting...
+[2021-07-16 00:38:08,154: INFO/MainProcess] Connected to redis://redis:6379//
+[2021-07-16 00:38:08,192: INFO/MainProcess] mingle: searching for neighbors
+[2021-07-16 00:38:09,269: INFO/MainProcess] mingle: all alone
+[2021-07-16 00:38:09,325: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2021-07-16 00:38:09,331: INFO/MainProcess] celery@e81cf0ef7f46 ready.
+[2021-07-16 00:38:09,346: INFO/MainProcess] Task api.tasks.download_csv_file_to_cache[ce3a793b-2ae8-4eba-b397-b2f240dee4a1] received
+[2021-07-16 00:38:11,272: INFO/ForkPoolWorker-1] Item 0: {'title': 'Item 1', 'description': 'Description 1', 'image': 'http://farm4.staticflickr.com/3764/10438039923_2ef6f68348_c.jpg'}
+[2021-07-16 00:38:11,285: INFO/ForkPoolWorker-1] Item 1: {'title': 'Item 2', 'description': 'Description 2', 'image': 'http://www.officialpsds.com/images/stocks/ALLEY-stock1502.jpg'}
+[2021-07-16 00:38:11,293: INFO/ForkPoolWorker-1] Item 2: {'title': 'Item 3', 'description': 'Description 3', 'image': 'https://www.google.com'}
+[2021-07-16 00:38:11,314: INFO/ForkPoolWorker-1] Item 3: {'title': 'Item 4', 'description': 'Description 4, <i>extra info</i>', 'image': ''}
+[2021-07-16 00:38:11,325: INFO/ForkPoolWorker-1] Item 4: {'title': 'Item 5', 'description': 'Description 5', 'image': 'http://ladymanson.com/Goodies/PS%20Tutorials/stock2.jpg'}
+[2021-07-16 00:38:11,333: INFO/ForkPoolWorker-1] Item 5: {'title': 'Item 6, extra info', 'description': '<b>Description 6</b>', 'image': 'http://fc01.deviantart.net/fs17/f/2007/129/7/4/Stock_032__by_enchanted_stock.jpg'}
+[2021-07-16 00:38:11,338: INFO/ForkPoolWorker-1] Item 6: {'title': 'Item 7', 'description': 'Description 7', 'image': 'http://www.rubberdragon.com/website-design/44/content/just-in-time-stock.png?1290605562'}
+[2021-07-16 00:38:11,345: INFO/ForkPoolWorker-1] Item 7: {'title': 'This is a longer description that should wrap arround or broken of with ellipsis', 'description': 'Description 8', 'image': 'http://www.gwp.co.uk/wp-content/uploads/2012/10/jit-case-delivery1.jpg'}
+[2021-07-16 00:38:11,353: INFO/ForkPoolWorker-1] Item 8: {'title': 'Item 9', 'description': 'Description 9', 'image': 'http://fc00.deviantart.net/fs70/i/2011/217/a/0/field_panorama_stock_5_by_f3rd4-d45kgfp.jpg'}
+[2021-07-16 00:38:11,360: INFO/ForkPoolWorker-1] Item 9: {'title': 'Item 10Extra line 1Extra line 2Extra line 3', 'description': 'Description 10', 'image': 'https://www.google.nl'}
+[2021-07-16 00:38:11,375: INFO/ForkPoolWorker-1] Item 10: {'title': 'Item 11', 'description': 'Description 11', 'image': ''}
+[2021-07-16 00:38:11,381: INFO/ForkPoolWorker-1] Item 11: {'title': 'Item 12', 'description': 'Description 12', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp9177473.jpg'}
+[2021-07-16 00:38:11,387: INFO/ForkPoolWorker-1] Item 12: {'title': 'Item 13', 'description': 'Description 13', 'image': 'http://farm4.staticflickr.com/3770/10379608353_cb362676b_b.jpg'}
+[2021-07-16 00:38:11,393: INFO/ForkPoolWorker-1] Item 13: {'title': 'Item 14, "extra data"', 'description': 'Description 14', 'image': 'http://www.rubberdragon.com/website-design/44/content/just-in-time-stock.png?1290605562'}
+[2021-07-16 00:38:11,398: INFO/ForkPoolWorker-1] Item 14: {'title': 'Item 15', 'description': 'Description 15', 'image': ''}
+[2021-07-16 00:38:11,403: INFO/ForkPoolWorker-1] Item 15: {'title': 'Item 16', 'description': 'Description 16', 'image': 'http://farm4.staticflickr.com/3789/10437199943_8f6476cef1.jpg'}
+[2021-07-16 00:38:11,407: INFO/ForkPoolWorker-1] Item 16: {'title': 'Item 17', 'description': 'Description 17', 'image': ''}
+[2021-07-16 00:38:11,411: INFO/ForkPoolWorker-1] Item 17: {'title': 'Item 18', 'description': 'Description 18', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp9177473.jpg'}
+[2021-07-16 00:38:11,416: INFO/ForkPoolWorker-1] Item 18: {'title': 'Item 19', 'description': 'Description 19', 'image': 'https://www.google.nl/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&docid=vp47OjPgb8jYjM&tbnid=mB4KC2XedUiDgM:&ved=0CAUQjRw&url=http%3A%2F%2Fwww.naturestocklibrary.com%2F&ei=O8pjUs3_MIbI0QXUnIDIAw&bvm=bv.54934254,d.d2k&psig=AFQjCNHp_WiQTk5MfZ8JliMxj6JYTc206w&ust=1382357938513870'}
+[2021-07-16 00:38:11,420: INFO/ForkPoolWorker-1] Item 19: {'title': 'Item 20', 'description': 'Description 20', 'image': 'http://www.officialpsds.com/images/stocks/ALLEY-stock1502.jpg'}
+[2021-07-16 00:38:11,425: INFO/ForkPoolWorker-1] Item 20: {'title': 'Item 21', 'description': 'Description 21', 'image': 'https://www.google.com'}
+[2021-07-16 00:38:11,430: INFO/ForkPoolWorker-1] Item 21: {'title': 'Item 22', 'description': 'Description 22', 'image': ''}
+[2021-07-16 00:38:11,435: INFO/ForkPoolWorker-1] Item 22: {'title': 'Item 23', 'description': 'Description 23', 'image': 'http://comps.canstockphoto.com/can-stock-photo_csp3928973.jpg'}
+[2021-07-16 00:38:11,441: INFO/ForkPoolWorker-1] Item 23: {'title': 'Item 24', 'description': 'Description 24', 'image': ''}
+[2021-07-16 00:38:11,452: INFO/ForkPoolWorker-1] Task api.tasks.download_csv_file_to_cache[ce3a793b-2ae8-4eba-b397-b2f240dee4a1] succeeded in 2.097416600001452s: 'CSV Contents downloaded and saved to Cache'
+[2021-07-16 00:38:14,987: INFO/MainProcess] Events of group {task} enabled by remote.

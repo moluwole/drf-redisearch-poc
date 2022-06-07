@@ -1,0 +1,87 @@
+version: '3'
+
+services:
+  api:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    entrypoint: ["/usr/src/app/entrypoint.sh"]
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - 8000:8000
+    environment:
+      - DEBUG=1
+      - SECRET_KEY=@vqey-wx*=q6ee91@1so3+lmofvy#15kpf)dqi*o%*m$am=*a^
+      - DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]
+      - ENVIRONMENT=dev
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - CSV_URL=https://docs.google.com/spreadsheet/ccc?key=0Aqg9JQbnOwBwdEZFN2JKeldGZGFzUWVrNDBsczZxLUE&single=true&gid=0&output=csv
+    depends_on:
+      - redis
+    networks:
+      - host
+
+  redis:
+    image: redislabs/redisearch
+    ports:
+      - 6379:6379
+    networks:
+      - host
+
+  celery:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: celery -A core worker --loglevel=info --logfile=logs/celery.log
+    volumes:
+      - .:/usr/src/app
+    environment:
+      - DEBUG=1
+      - SECRET_KEY=@vqey-wx*=q6ee91@1so3+lmofvy#15kpf)dqi*o%*m$am=*a^
+      - DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]
+      - ENVIRONMENT=dev
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - CSV_URL=https://docs.google.com/spreadsheet/ccc?key=0Aqg9JQbnOwBwdEZFN2JKeldGZGFzUWVrNDBsczZxLUE&single=true&gid=0&output=csv
+    depends_on:
+      - redis
+    networks:
+      - host
+
+  celery-beat:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: celery -A core beat --loglevel=info --logfile=logs/celery.log
+    volumes:
+      - .:/usr/src/app
+    environment:
+      - DEBUG=1
+      - SECRET_KEY=@vqey-wx*=q6ee91@1so3+lmofvy#15kpf)dqi*o%*m$am=*a^
+      - DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]
+      - ENVIRONMENT=dev
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - CSV_URL=https://docs.google.com/spreadsheet/ccc?key=0Aqg9JQbnOwBwdEZFN2JKeldGZGFzUWVrNDBsczZxLUE&single=true&gid=0&output=csv
+    depends_on:
+      - redis
+    networks:
+      - host
+
+  flower:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: celery -A core --broker=redis://redis:6379 flower --port=5555
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - 5555:5555
+    depends_on:
+      - redis
+    networks:
+      - host
+
+networks:
+  host:
