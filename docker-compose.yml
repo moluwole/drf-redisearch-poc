@@ -16,7 +16,7 @@ services:
       - ENVIRONMENT=dev
       - REDIS_HOST=redis
       - REDIS_PORT=6379
-      - CSV_URL=https://docs.google.com/spreadsheet/ccc?key=0Aqg9JQbnOwBwdEZFN2JKeldGZGFzUWVrNDBsczZxLUE&single=true&gid=0&output=csv
+      - CSV_URL=https://docs.google.com/spreadsheets/d/e/2PACX-1vTNcuK3zA_LexiCwI9yM6bXNrp4OUdjXzYQNI1zniE6fQRiZ-u3RNJQEeQINewO87wSniHYwWgQbGNj/pub?output=csv
     depends_on:
       - redis
     networks:
@@ -43,7 +43,7 @@ services:
       - ENVIRONMENT=dev
       - REDIS_HOST=redis
       - REDIS_PORT=6379
-      - CSV_URL=https://docs.google.com/spreadsheet/ccc?key=0Aqg9JQbnOwBwdEZFN2JKeldGZGFzUWVrNDBsczZxLUE&single=true&gid=0&output=csv
+      - CSV_URL=https://docs.google.com/spreadsheets/d/e/2PACX-1vTNcuK3zA_LexiCwI9yM6bXNrp4OUdjXzYQNI1zniE6fQRiZ-u3RNJQEeQINewO87wSniHYwWgQbGNj/pub?output=csv
     depends_on:
       - redis
     networks:
@@ -63,7 +63,7 @@ services:
       - ENVIRONMENT=dev
       - REDIS_HOST=redis
       - REDIS_PORT=6379
-      - CSV_URL=https://docs.google.com/spreadsheet/ccc?key=0Aqg9JQbnOwBwdEZFN2JKeldGZGFzUWVrNDBsczZxLUE&single=true&gid=0&output=csv
+      - CSV_URL=https://docs.google.com/spreadsheets/d/e/2PACX-1vTNcuK3zA_LexiCwI9yM6bXNrp4OUdjXzYQNI1zniE6fQRiZ-u3RNJQEeQINewO87wSniHYwWgQbGNj/pub?output=csv
     depends_on:
       - redis
     networks:
